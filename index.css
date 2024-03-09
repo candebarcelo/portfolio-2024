@@ -1,0 +1,243 @@
+/* GENERAL */
+
+body, html {
+    margin: 0px;
+    text-align: center;
+    font-family: "Poppins";
+    /* font-size: 18px; */
+    /* font-family:"Google Sans", sans-serif; */
+    scroll-behavior: smooth;
+    --primary-color: #1a68d3;
+    --secondary-color: #71c7ee;
+    --tertiary-color: #9d9af1;
+}
+
+a, p, b, footer {
+    font-size: 18px;
+}
+
+section {
+    padding: 60px 20px 40px 20px;
+    margin: 60px 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: solid;
+}
+
+/* SECTIONS */
+
+/* nav bar */
+
+nav {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 3;
+}
+
+#nav-logo {
+    position: absolute;
+    left: 0;
+    padding: 0 15px;
+    font-size: x-large;
+    text-decoration: solid;
+}
+
+#nav-logo-1 {
+    color: var(--primary-color);
+    font-size: 25px;
+}
+
+nav a {
+    padding: 12px 30px;
+    margin: 10px;
+    color: black;
+}
+
+#nav-links a[href='#contact'] {
+    border-style: outset;
+    border-color: var(--secondary-color);
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+#nav-links a[href='#contact']:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav-links a:hover {
+    background-color: whitesmoke;
+    color: var(--primary-color);
+    border-radius: 20px;
+}
+
+#home {
+    height: 0;
+}
+
+/* download cv button */
+
+#download-cv {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: var(--secondary-color);
+    border-width: 3px;
+    padding: 15px 30px;
+    font-size: 20px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+#download-cv:hover {
+    background-color: whitesmoke;
+    color: var(--primary-color);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#download-cv img {
+    margin-left: 13px;
+}
+
+/* hero */
+
+#hero {
+    height: 40rem;
+    padding: 60px 0 0 0;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--primary-color);
+    background-image: 
+        /* radial-gradient(ellipse at bottom, var(--primary-color) 5%, transparent 60%), hace lo azul de abajo mas circular */
+        linear-gradient(136deg, transparent, var(--secondary-color) 290%), /* celeste esquina abajo derecha */
+        linear-gradient(95deg, var(--tertiary-color), transparent 40%), /* lila izquierda */
+        radial-gradient(ellipse at bottom right, var(--tertiary-color) 2%, transparent 80%), /* lila derecha */
+        linear-gradient(180deg, transparent 0, var(--primary-color) 90%), /* tapa parte de abajo con azul  */
+        radial-gradient(ellipse at -70% -250%, transparent 80%, var(--secondary-color) 0), /* linea celeste esquina */
+        radial-gradient(ellipse at bottom, var(--primary-color) 40%, transparent 80%), /* azul en el lila */
+        radial-gradient(ellipse at -15% 700%, transparent 80%, var(--tertiary-color) 0); /* lila arriba */
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#pic {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: var(--secondary-color);
+    margin: 30px;
+}
+
+#intro-title {
+    color: white;
+    text-align: left;
+    width: 39rem;
+    /* text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color), 0 0 40px var(--primary-color), 0 0 50px var(--primary-color), 0 0 60px var(--primary-color), 0 0 70px var(--primary-color); */
+}
+
+#waves {
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    z-index: 2;
+}
+
+/* about me */
+
+#about h3 {
+    padding: 0 50px;
+    text-align: left;
+    display: inline-block;
+}
+
+p {
+    text-align: left;
+    padding: 0 0 0 50px;
+    font-size: 25px;
+}
+
+#about svg {
+    float: right;
+    padding: 0;
+    width: 450px;
+    height: 450px;
+    margin: 40px 0 40px 40px;
+}
+
+/* skills */
+
+#skills .container {
+    background: linear-gradient(37deg, rgba(157,154,241,1) 0%, rgba(113,199,238,1) 50%, rgba(26,104,211,1) 100%);
+    margin: 100px 50px;
+    padding: 40px 0;
+    border-radius: 20px;
+    display: block;
+}
+
+/* experience */
+
+/* projects */
+
+/* contact me */
+
+#contact h3 {
+    padding: 30px 0;
+}
+
+#contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+}
+
+/* footer */
+
+footer {
+    /* margin-top: 1000px; */
+    padding: 40px;
+}
+
+/* OVERRIDES */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

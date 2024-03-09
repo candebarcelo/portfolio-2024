@@ -1,0 +1,13 @@
+
+- q about me entre en 1 pantalla scrolleando (y todas las secciones)
+
+- rellenar bien los textos de experiencia y about me
+
+- animaciones para cuando haces hover sobre algo, como en el de samu. 
+  me gustaria q los iconos de contact es pinten de mi color y se levanten, y tamb ver para las demas areas
+
+- responsiveness para celu y pantallas diferentes
+
+- podria achicar las imagenes e iconos a su tamaño maximo, asi no aparecen gigantes x un milisegundo antes de q cargue
+
+- + separadores??
