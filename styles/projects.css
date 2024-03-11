@@ -62,7 +62,8 @@
 
 .project-tech-stack {
     font-weight: bold;
-    margin: 35px
+    margin: 35px 0;
+    word-spacing: 8px;
 }
 
 .project-links {
