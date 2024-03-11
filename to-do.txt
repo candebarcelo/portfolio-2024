@@ -1,8 +1,6 @@
 
 - q about me entre en 1 pantalla scrolleando y tamb con la nav (para todas las secciones)
 
-- rellenar bien los textos de experiencia
-
 - responsiveness para celu y pantallas diferentes
 
 - podria achicar las imagenes e iconos a su tamaño maximo, asi no aparecen gigantes x un milisegundo antes de q cargue
@@ -17,7 +15,7 @@
 
 - agregar a proyectos jb dental?
 
-- agregar parte de tech stack a las experiencias
+- sombras para los svgs?
 
 ANIMACIONES:
 - hero: q aparezca como desvaneciendose y hacia arriba un poquito. capaz hasta le puedo hacer un efecto de ola x cada letra
