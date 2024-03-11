@@ -1,0 +1,94 @@
+#contact {
+    overflow: visible;
+    /* color: white; */
+    text-shadow: 30px;
+}
+
+#contact h3 {
+    padding: 30px 0;
+}
+
+#contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+}
+
+#contact-svg-list svg {
+    position: absolute;
+    padding: 0;
+    width: 450px;
+    height: 450px;
+    margin: 40px 0 40px 40px;
+    z-index: -1;
+    overflow: visible;
+    margin: 0;
+}
+
+#contact-svg-list svg:nth-child(1) {
+    left: 0px;
+    /* left: -400px */
+}
+
+#contact-svg-list svg:nth-child(2) {
+    width: 600px;
+    height: 600px;
+    left: 290px;
+    /* left: 100px; */
+    /* bottom: 100px; */
+}
+
+#contact-svg-list svg:nth-child(3) {
+    width: 300px;
+    height: 300px;
+    left: 710px;
+}
+
+#contact-svg-list svg:nth-child(4) {
+    width: 500px;
+    height: 500px;
+    left: 800px;
+}
+
+/* .glow-text {
+    -webkit-animation: glow-text 1s ease-in-out infinite alternate;
+    -moz-animation: glow-text 1s ease-in-out infinite alternate;
+    animation: glow-text 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow-text {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke, 0 0 60px whitesmoke, 0 0 70px whitesmoke;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+    }
+} */
+
+.glow-icon {
+    background-color: white;
+    border-radius: 50%;
+    -webkit-animation: glow-icon 1s ease-in-out infinite alternate;
+    -moz-animation: glow-icon 1s ease-in-out infinite alternate;
+    animation: glow-icon 1s ease-in-out infinite alternate;
+}
+
+.glow-icon:nth-child(even) {
+    border-radius: 30%;
+}
+
+@-webkit-keyframes glow-icon {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px whitesmoke, 0 0 60px whitesmoke, 0 0 70px whitesmoke;
+    }
+    
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+    }
+}
