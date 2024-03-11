@@ -10,12 +10,12 @@
 }
 
 .project-container {
-    padding: 30px;
+    padding: 30px 0;
     margin: 30px;
     background: linear-gradient(37deg, rgba(157,154,241,1) 0%, rgba(113,199,238,1) 50%, rgba(26,104,211,1) 100%);
     border-radius: 30px;
     height: 575px;
-    width: 450px;
+    width: 510px;
     /* border-color: var(--secondary-color);
     border-width: 3px;
     border-style: outset; */
@@ -50,7 +50,7 @@
 }
 
 #projects p {
-    padding: 0;
+    padding: 0 30px;
     text-align: center;
     text-wrap: wrap;
     font-size: 18px;
@@ -83,5 +83,5 @@
 .project-links a > img {
     width: 30px;
     height: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
