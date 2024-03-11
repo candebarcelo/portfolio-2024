@@ -15,7 +15,9 @@
 
 - traduccion a español?
 
--agregar a proyectos jb dental?
+- agregar a proyectos jb dental?
+
+- agregar parte de tech stack a las experiencias
 
 ANIMACIONES:
 - hero: q aparezca como desvaneciendose y hacia arriba un poquito. capaz hasta le puedo hacer un efecto de ola x cada letra
