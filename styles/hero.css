@@ -1,0 +1,51 @@
+#hero {
+    height: 40rem;
+    padding: 60px 0 0 0;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--primary-color);
+    background-image: 
+        /* radial-gradient(ellipse at bottom, var(--primary-color) 5%, transparent 60%), hace lo azul de abajo mas circular */
+        linear-gradient(136deg, transparent, var(--secondary-color) 290%), /* celeste esquina abajo derecha */
+        linear-gradient(95deg, var(--tertiary-color), transparent 40%), /* lila izquierda */
+        radial-gradient(ellipse at bottom right, var(--tertiary-color) 2%, transparent 80%), /* lila derecha */
+        linear-gradient(180deg, transparent 0, var(--primary-color) 90%), /* tapa parte de abajo con azul  */
+        radial-gradient(ellipse at -70% -250%, transparent 80%, var(--secondary-color) 0), /* linea celeste esquina */
+        radial-gradient(ellipse at bottom, var(--primary-color) 40%, transparent 80%), /* azul en el lila */
+        radial-gradient(ellipse at -15% 700%, transparent 80%, var(--tertiary-color) 0); /* lila arriba */
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#pic {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: var(--secondary-color);
+    margin: 30px;
+}
+
+#intro-title {
+    color: white;
+    text-align: left;
+    width: 39rem;
+    /* text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color), 0 0 40px var(--primary-color), 0 0 50px var(--primary-color), 0 0 60px var(--primary-color), 0 0 70px var(--primary-color); */
+}
+
+#waves {
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    z-index: 2;
+}

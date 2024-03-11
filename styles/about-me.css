@@ -1,0 +1,19 @@
+#about h3 {
+    padding: 0 50px;
+    text-align: left;
+    display: inline-block;
+}
+
+p {
+    text-align: left;
+    padding: 0 0 0 50px;
+    font-size: 23px;
+}
+
+#about svg {
+    float: right;
+    padding: 0;
+    width: 450px;
+    height: 450px;
+    margin: 40px 0 40px 40px;
+}

@@ -1,0 +1,47 @@
+#skills {
+    padding-top: 60px;
+    margin-top: 160px;
+    font-size: 20px;
+}
+
+#skills .container {
+    background: linear-gradient(37deg, rgba(157,154,241,1) 0%, rgba(113,199,238,1) 50%, rgba(26,104,211,1) 100%);
+    margin: 20px 50px 30px 50px;
+    padding: 40px 0;
+    border-radius: 40px;
+    display: block;
+}
+
+#skills h3 {
+    margin-top: 0;
+    /* color: white; */
+}
+
+#skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card-container {
+    background-color: white;
+    border-radius: 20px;
+    height: 150px;
+    width: 120px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-width: 3px;
+    border-color: var(--secondary-color);
+    border-style: outset; */
+    /* box-shadow: 0px 4px 8px 0px rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
+    box-shadow: 0 0 50px 15px var(--secondary-color);
+}
+
+#skills img {
+    width: 80px;
+    height: 80px;
+}

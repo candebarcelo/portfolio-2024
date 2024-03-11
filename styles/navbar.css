@@ -1,0 +1,51 @@
+nav {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 3;
+}
+
+#nav-logo {
+    position: absolute;
+    left: 0;
+    padding: 0 15px;
+    font-size: x-large;
+    text-decoration: solid;
+}
+
+#nav-logo-1 {
+    color: var(--primary-color);
+    font-size: 25px;
+}
+
+nav a {
+    padding: 12px 30px;
+    margin: 10px;
+    color: black;
+}
+
+#nav-links a[href='#contact'] {
+    border-style: outset;
+    border-color: var(--secondary-color);
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+#nav-links a:hover {
+    background-color: whitesmoke;
+    color: var(--primary-color);
+    border-radius: 20px;
+}
+
+#home {
+    height: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

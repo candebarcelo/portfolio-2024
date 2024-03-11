@@ -1,13 +1,33 @@
 
-- q about me entre en 1 pantalla scrolleando (y todas las secciones)
+- q about me entre en 1 pantalla scrolleando y tamb con la nav (para todas las secciones)
 
 - rellenar bien los textos de experiencia y about me
-
-- animaciones para cuando haces hover sobre algo, como en el de samu. 
-  me gustaria q los iconos de contact es pinten de mi color y se levanten, y tamb ver para las demas areas
 
 - responsiveness para celu y pantallas diferentes
 
 - podria achicar las imagenes e iconos a su tamaño maximo, asi no aparecen gigantes x un milisegundo antes de q cargue
 
 - + separadores??
+
+- agregar skills de material angular, rxjs, ngrx, ag-grid 
+
+- ver como hacer mas linda la parte de skills
+
+- dark theme?
+
+- traduccion a español?
+
+- revisar si hay forma de hacer un demo del winforms
+
+ANIMACIONES:
+- hero: q aparezca como desvaneciendose y hacia arriba un poquito. capaz hasta le puedo hacer un efecto de ola x cada letra
+- about: q flote el svg, q levite hacia arriba y abajo
+- skills: cada skill puede levitar y cuando le haces hover se da una vuelta 360 horizontal, como una carta. oooo puede
+  brillar tipo q de vez en cuando le pase un brillo de izq a der, eso puede ser o para cada skill o para el container de skills
+- experience: q le pase un brillo de izq a der, si es posible q pase x todo lo azul. o sea 1ero x la fecha, desp el punto y desp el titulo
+- projects:
+- contact: q on hover les cambie el color y se levanten, como samu
+- footer: q on hover, se levante como en una ola letra x letra (como un easter egg)
+- download cv button: dejar asi o mejorar?
+
+- en gral: animaciones para cuando haces hover sobre algo, como en el de samu

@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/icons/favicon.ico" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/download-cv-button.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/about-me.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/experience.css">
+    <link rel="stylesheet" href="./styles/projects.css">
     <title>Candelaria Barcelo | Portfolio</title>
 </head>
 <body>
@@ -25,12 +31,12 @@
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
-            <a href="#contact" id="nav-links-contact">Contact me</a>
+            <a href="#contact" class="hover-effect">Contact me</a>
         </div>
     </nav>
     <main>
         <form>
-            <button id="download-cv" formaction="./docs/CV_Candelaria_Barcelo.pdf">
+            <button id="download-cv" class="hover-effect" formaction="./docs/CV_Candelaria_Barcelo.pdf">
                 <b>Download CV</b>
                 <img src="./images/icons/download-icon.svg" alt="Download CV" />
             </button>
@@ -76,18 +82,122 @@
             <div class="section-container">
                 <h3>About me</h3>
                 <p>
-                    I'm a Software Engineer at Accenture, and currently on my last semester of an IT Bachelor's degree at the University of Buenos Aires. 
-                    I am a very focused and passionate person who believes that it is crucial to pursue the continuous 
-                    improvement of the processes and of myself, through lifelong learning. I am a fast learner whom you 
-                    can trust completely, as I am remarkably committed to my work, apart from being highly efficient and 
-                    attentive to detail. I am proficient in both Spanish and English.
+                    Hi! I'm a Full Stack Developer with over 2 years of experience in programming, 
+                    primarily focusing on a tech stack that includes Angular, C# .NET Core, and PostgreSQL.
+                    I'm also studying Information Technology at the University of Buenos Aires, currently on my last semester!
+                    <br><br>
+                    I am a very focused and passionate person, always striving for self-improvement through continuous learning. 
+                    I speak both Spanish and English fluently, so I'm comfortable communicating in any situation.
                 </p>
             </div>
         </section>
         <section id="skills">
             <div class="container">
                 <h3>Tech skills</h3>
-                <div id="skills-list"></div>
+                <div id="skills-list">
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angular logo"  />
+                            <div>Angular</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" alt="dotnetcore logo"  />
+                            <div>.NET Core</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+                            <div>TypeScript</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
+                            <div>C#</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+                            <div>PostgreSQL</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.simpleicons.org/microsoftsqlserver/CC2927" height="40" alt="microsoftsqlserver logo"  />
+                            <div>Microsoft SQL Server</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+                            <div>JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+                            <div>HTML</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+                            <div>CSS</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40" alt="redux logo"  />
+                            <div>Redux</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+                            <div>React</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+                            <div>Python</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="./images/icons/angular-material.png" height="40" alt="angular material logo"  />
+                            <div>Angular Material</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="./images/icons/ag-grid.jpg" height="40" alt="ag-grid logo"  />
+                            <div>AG Grid</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="https://v8.ngrx.io/assets/images/badge.svg" height="40" alt="ngrx logo"  />
+                            <div>NgRx</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="./images/icons/rxjs.png" height="40" alt="rxjs logo"  />
+                            <div>RxJS</div>
+                        </div>
+                    </div>
+                    <div class="skill-card-container">
+                        <div class="skill-card">
+                            <img src="./images/icons/winforms.png" height="40" alt="winforms logo"  />
+                            <div>WinForms</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="experience">
@@ -119,6 +229,76 @@
         </section>
         <section id="projects">
             <h3>Latest projects</h3>
+            <div id="projects-list">
+                <div class="project-container">
+                    <div class="project">
+                        <img src="./images/projects/brainiac.png" alt="Brainiac">
+                        <h4>Brainiac</h4>
+                        <p class="project-description"></p>
+                        <p class="project-tech-stack"></p>
+                        <div class="project-links">
+                            <a class="github-link" href="https://github.com/candebarcelo/brainiac">
+                                <span>GitHub</span>
+                                <img src="./images/icons/github.svg" alt="GitHub link">
+                            </a>
+                            <a class="demo-link" href="https://brainiac-face-detection.netlify.app/">
+                                <span>Demo</span>
+                                <img src="./images/icons/demo.svg" alt="Demo link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="./images/projects/robofriends.png" alt="Robofriends">
+                        <h4>Robofriends</h4>
+                        <p class="project-description"></p>
+                        <p class="project-tech-stack"></p>
+                        <div class="project-links">
+                            <a class="github-link" href="https://github.com/candebarcelo/robofriends">
+                                <span>GitHub</span>
+                                <img src="./images/icons/github.svg" alt="GitHub link">
+                            </a>
+                            <a class="demo-link" href="https://candebarcelo.github.io/robofriends/">
+                                <span>Demo</span>
+                                <img src="./images/icons/demo.svg" alt="Demo link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="./images/projects/electrohogar.png" alt="ElectroHogar">
+                        <h4>ElectroHogar</h4>
+                        <p class="project-description"></p>
+                        <p class="project-tech-stack"></p>
+                        <div class="project-links">
+                            <a class="github-link" href="https://github.com/pscalello/TPIntegral">
+                                <span>GitHub</span>
+                                <img src="./images/icons/github.svg" alt="GitHub link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="./images/projects/previous-portfolio.png" alt="Previous Portfolio">
+                        <h4>Previous Portfolio</h4>
+                        <p class="project-description"></p>
+                        <p class="project-tech-stack"></p>
+                        <div class="project-links">
+                            <a class="github-link" href="https://github.com/candebarcelo/solvd-homeworks/tree/main/13-environment-and-preprocessors">
+                                <span>GitHub</span>
+                                <img src="./images/icons/github.svg" alt="GitHub link">
+                            </a>
+                            <a class="demo-link">
+                                <span>Demo</span>
+                                <img src="./images/icons/demo.svg" alt="Demo link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="contact">
             <h3>Contact me</h3>
