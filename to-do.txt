@@ -5,10 +5,6 @@
 
 - podria achicar las imagenes e iconos a su tamaño maximo, asi no aparecen gigantes x un milisegundo antes de q cargue
 
-- + separadores??
-
-- ver como hacer mas linda la parte de skills
-
 - dark theme?
 
 - traduccion a español?
@@ -18,7 +14,7 @@
 - sombras para los svgs?
 
 ANIMACIONES:
-- hero: q aparezca como desvaneciendose y hacia arriba un poquito. capaz hasta le puedo hacer un efecto de ola x cada letra
+- hero: q aparezca como desvaneciendose y hacia arriba un poquito, lento. capaz hasta le puedo hacer un efecto de ola x cada letra
 - about: q flote el svg, q levite hacia arriba y abajo
 - skills: cada skill puede levitar y cuando le haces hover se da una vuelta 360 horizontal, como una carta. oooo puede
   brillar tipo q de vez en cuando le pase un brillo de izq a der, eso puede ser o para cada skill o para el container de skills
