@@ -48,4 +48,33 @@ a {
 
 footer {
     padding: 100px 0 40px 0;
+    /* position: absolute; */
+    
+}
+
+footer span:hover {
+    animation: MoveUpDown 1s ease-in-out;
+}
+
+.MoveUpDown {
+    animation: MoveUpDown 1s ease-in-out;
+    -webkit-animation: MoveUpDown 1s ease-in-out;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+}
+
+@-webkit-keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
 }
